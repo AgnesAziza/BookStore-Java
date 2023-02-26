@@ -1,0 +1,55 @@
+@charset "UTF-8";
+.containerPrincipalLibrairy {
+	margin-top: 240px;
+	
+}
+.contactButton{
+	display: flex;
+    justify-content: space-between;
+}
+.epedierCommande {
+	display: flex;
+    justify-content: space-between;
+   
+}
+
+.modif {
+	background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.modif:hover {
+	color: #e64c45
+}
+
+.containerContact {
+	 width: 70%;
+	 margin: 0 auto;
+	 margin-bottom: 2em;
+}
+
+.containerPaiement {
+	 width: 70%;
+	 margin: 0 auto;
+}
+
+.montant {
+	margin-top: 2em;
+}
+
+.buttonValiderPaiement {
+	background-color: #04AA6D;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+	border-radius: 3px;
+	text-align: center;
+    margin-top: 2em;
+}
+
+.moyenDePaiement {
+	text-align: center;
+    margin-top: 1em;
+}

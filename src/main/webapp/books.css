@@ -1,0 +1,51 @@
+.libraryContent {
+	display : grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 15px;
+}
+
+.containerPrincipalLibrairy {
+	margin-top: 240px;
+}
+
+.form {
+	border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px -3px 16px 8px grey;
+    border : solid 1px #E64B44;
+}
+
+.title {
+	text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    
+}
+
+.part {
+	font-size: 20px;
+     padding: 7px;
+  
+}
+
+.buttonAddBook {
+	padding: 10px;
+    background-color: #e76761;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buttonAddBook:hover {
+	background-color: #04AA6D;
+	cursor: pointer;
+}
+
+.buttonAddBook:active {
+	transform: translateY(4px);
+}

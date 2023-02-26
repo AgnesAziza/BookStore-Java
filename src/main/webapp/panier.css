@@ -1,0 +1,66 @@
+.libraryContent {
+	margin-top: 240px;
+}
+
+.titlePanier {
+	text-align: center;
+	font-size: 20px;
+    font-weight: bold;
+    margin-top: 13em;
+    margin-bottom: 2em;
+}
+.emptyBag {
+	text-align: center;
+}
+
+.containerBag {
+	display: flex; 
+	flex-direction: row;
+}
+
+.containerPanier {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    box-shadow: 0 0 20px #483636;
+    padding: 2em 0;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    gap: 6em;
+}
+
+.recapPannier {
+	display: flex;
+	flex-direction: column;
+}
+
+.totalPanier {
+	display: flex;
+	flex-direction: column;
+}
+
+.validatePanier {
+	background-color: #04AA6D;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+	border-radius: 3px;
+}
+
+.validatePanier:active {
+	transform: translateY(4px);
+}
+
+.deleteBag {
+	background-color: red;
+    border: none;
+    padding: 6px;
+    color: white;
+}
+
+.total {
+	font-weight: bold;
+}
